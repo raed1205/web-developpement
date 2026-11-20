@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_word">مرحبا بالعالم!</string>
+    <string name="nom">اللقب</string>
+    <string name="prenom">الاسم</string>
+    <string name="date">تاريخ الميلاد</string>
+    <string name="ville">مدينة الميلاد</string>
+    <string name="valide">تأكيد</string>
+    <string name="fill_all_fields">يرجى ملء جميع الحقول</string>
+    <string name="summary_format">%1$s %2$s، من مواليد %3$s في %4$s</string>
+</resources>

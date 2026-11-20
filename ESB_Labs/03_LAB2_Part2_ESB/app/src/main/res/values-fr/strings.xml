@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_word">Bonjour le monde !</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="date">Date de naissance</string>
+    <string name="ville">Ville de naissance</string>
+    <string name="valide">Valider</string>
+    <string name="fill_all_fields">Veuillez remplir tous les champs</string>
+    <string name="summary_format">%1$s %2$s, né(e) le %3$s à %4$s</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_f1msg">Bienvenue sur Esprit</string>
+    <string name="log_f2msg">Connectez-vous à votre compte</string>
+    <string name="log_username">Nom d\'utilisateur</string>
+    <string name="log_pwd">Mot de passe oublié ?</string>
+    <string name="log_cnx">Se connecter</string>
+    <string name="cd_logo">Logo d\'Esprit School of Business</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LAB 2 - Homework 2: grouping views with ConstraintLayout (reproduces the 5-button layout).
+     BTN1 : top of the screen, centred horizontally.
+     BTN2 : under BTN1, left side on the right side of BTN5, right side on the left side of BTN1.
+     BTN3 : under BTN2, from the right side of BTN2 to the right side of the window.
+     BTN4 : under BTN3, from the left of the window to the right side of BTN1.
+     BTN5 : left of the window, as tall as BTN1 top -> BTN3 bottom (BTN5 needs BTN3 which depends on BTN2). -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff683e"
+        android:text="BTN1"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#19C7C1"
+        android:text="BTN2"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toStartOf="@id/button1"
+        app:layout_constraintStart_toEndOf="@id/button5"
+        app:layout_constraintTop_toBottomOf="@id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7FD82F"
+        android:text="BTN3"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button2"
+        app:layout_constraintTop_toBottomOf="@id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E0149B"
+        android:text="BTN4"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="@id/button1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:backgroundTint="#F5D414"
+        android:text="BTN5"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/button1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

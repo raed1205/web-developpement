@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">ESB</string>
+    <string name="hello_word">Hello World!</string>
+    <string name="nom">Lastname</string>
+    <string name="prenom">Firstname</string>
+    <string name="date">Date of birth</string>
+    <string name="ville">City of birth</string>
+    <string name="valide">Validate</string>
+    <string name="fill_all_fields">Please fill in all the fields</string>
+    <string name="summary_format">%1$s %2$s, born on %3$s in %4$s</string>
+    <string name="hint_date" translatable="false">dd/mm/yyyy</string>
+</resources>

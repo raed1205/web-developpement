@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_f1msg">مرحبا بك في إسبريت</string>
+    <string name="log_f2msg">سجّل الدخول إلى حسابك</string>
+    <string name="log_username">اسم المستخدم</string>
+    <string name="log_pwd">نسيت كلمة المرور؟</string>
+    <string name="log_cnx">تسجيل الدخول</string>
+    <string name="cd_logo">شعار Esprit School of Business</string>
+    <string name="log_err_requis">هذا الحقل مطلوب</string>
+    <string name="log_err_cnx">اسم المستخدم أو كلمة المرور غير صحيحة</string>
+    <string name="welcome_user">مرحبا، %1$s!</string>
+    <string name="logout">تسجيل الخروج</string>
+</resources>
